@@ -7,7 +7,7 @@ program matrices
   !Declaracion de variables a utilizar
   integer i,s,j,k
   integer n
-  integer dimensiones(0:53)::m
+  integer, dimension(0:53)::m
 
   do i = 0,35
 
@@ -70,3 +70,4 @@ program matrices
   write(*,*) m(45),m(46),m(47)
   write(*,*) m(48),m(49),m(50)
   write(*,*) m(51),m(52),m(53)
+end program matrices
